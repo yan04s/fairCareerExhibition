@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "48309806360",
+    "project_id": "youtube-api-418916",
+    "storage_bucket": "youtube-api-418916.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48309806360:android:c0c553887d8797b4a8ea6d",
+        "android_client_info": {
+          "package_name": "com.example.body_mass_index_btpr2043"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48309806360-0jlsourti5o98p4ltp3r5kh2t2re9ugf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDiUSX-mgfzAL1iNrqRscO4WtcLx3Curc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48309806360-0jlsourti5o98p4ltp3r5kh2t2re9ugf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "48309806360-0lt5kde172mnm39atcdn05ht0tk8b4rm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.travelPlanner"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48309806360:android:bacd72b592840560a8ea6d",
+        "android_client_info": {
+          "package_name": "com.example.fair_career_ex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48309806360-0jlsourti5o98p4ltp3r5kh2t2re9ugf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDiUSX-mgfzAL1iNrqRscO4WtcLx3Curc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48309806360-0jlsourti5o98p4ltp3r5kh2t2re9ugf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "48309806360-0lt5kde172mnm39atcdn05ht0tk8b4rm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.travelPlanner"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48309806360:android:12a3fe24eeb92b30a8ea6d",
+        "android_client_info": {
+          "package_name": "com.example.travel_plan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48309806360-0jlsourti5o98p4ltp3r5kh2t2re9ugf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDiUSX-mgfzAL1iNrqRscO4WtcLx3Curc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48309806360-0jlsourti5o98p4ltp3r5kh2t2re9ugf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "48309806360-0lt5kde172mnm39atcdn05ht0tk8b4rm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.travelPlanner"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
