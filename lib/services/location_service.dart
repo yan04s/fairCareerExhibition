@@ -8,12 +8,21 @@ import '../models/fair_location.dart';
 
 class LocationService {
   // ── API KEYS ─────────────────────────────────────────────────────────────
-  static const String _googleApiKey = 'AIzaSyAhrwn4WOQrtWf-3vSiMPk6OCpVNRu0Qtw';
+  static const String _googleApiKey = 'AIzaSyAhrwn4WOQrtWf-3vSiMPk6OCpVNRu0Qtw'; // {now: google AI Studio API key} {default: google cloud API key}
 
   // ── GEMINI MODEL ──────────────────────────────────────────────────────────
   GenerativeModel? _model;
   GenerativeModel get _gemini {
-    _model ??= FirebaseAI.googleAI().generativeModel(model: 'gemini-2.5-pro');
+    _model ??= FirebaseAI.googleAI().generativeModel(model: 'gemini-2.5-flash');// {now: gemini-2.5-flash} // {default: gemini-2.5-pro}
+    // from pro to flash, change firebase plan from "Blaze" to "Spark" (this also stopped google maps geocoding API)
+    /**
+      flutter: Geocoding API status: REQUEST_DENIED
+      flutter: Gemini refine error: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+      2
+      flutter: * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro
+      2
+      flutter: * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro
+     */
     return _model!;
   }
 
