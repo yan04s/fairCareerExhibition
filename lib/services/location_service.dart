@@ -8,7 +8,7 @@ import '../models/fair_location.dart';
 
 class LocationService {
   // ── API KEYS ─────────────────────────────────────────────────────────────
-  static const String _googleApiKey = 'AIzaSyAhrwn4WOQrtWf-3vSiMPk6OCpVNRu0Qtw'; // {now: google AI Studio API key} {default: google cloud API key}
+  static const String _googleApiKey = 'AIzaSyAhrwn4WOQrtWf-3vSiMPk6OCpVNRu0Qtw';
 
   // ── GEMINI MODEL ──────────────────────────────────────────────────────────
   GenerativeModel? _model;
